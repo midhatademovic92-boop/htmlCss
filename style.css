@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightgrey;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+.line{
+    font-size: 2px;
+    background-color: grey;
+    width: 325px;
+}
+
+.container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+
+/*title start*/
+.title{
+    padding-bottom: 20px;
+    color: white;
+    background-color: #336699;
+    width: 100%;
+    text-align: center;
+    font-size: 62px;
+    
+    
+    
+}
+
+/*title end*/
+
+/*navbar link start*/
+
+.navbar-link{
+    background-color: #094e92;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+  
+    
+    
+}
+.navbar-link a{
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    background-color: #094e92;
+    text-align: center;
+    margin: 0 15px;
+    padding: 8px 0;
+    
+}
+/*navbar link end*/
+
+
+/*scienceUpdate strat*/
+
+.scienceUpdate{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.scienceUpdate .subTitle{
+    font-size: 32px;
+    color: #094e92;
+    padding: 15px;
+}
+
+.welcomeTitle{
+
+    color:rgb(71, 71, 71);
+    font-size: 18px;
+    
+}
+/*scienceUpdate end*/
+
+/* card start*/
+.card{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 40px;
+    align-items: flex-start;
+    
+    
+}
+
+.cardOne, .cardTwo{
+    border: 1px solid grey;
+    padding: 20px 20px;
+    box-shadow: 0px 8px 20px gray;
+}
+
+.card h2{
+    background-color:rgb(183, 181, 181);
+    color: #094e92;
+;
+}
+
+.cardTwo{
+    padding-bottom: 85px;
+}
+
+.card h3{
+    background-color:rgb(183, 181, 181);
+    color: #094e92;
+    margin: 12px auto;
+    width: 90%;
+    text-align: center;
+
+}
+
+.card li{
+    margin: 12px;
+    color: rgb(49, 49, 49);
+}
+
+.card p{
+    color: rgb(51, 51, 51);
+}
+
+/*card end*/
+
+/*funny start*/
+.funnyH3{
+    background-color:rgba(156, 77, 77, 0.245);
+    color: #094e92;
+    margin: 12px auto;
+    font-size: 18px;
+    padding: 8px 0;
+
+}
+
+.funny p{
+    font-size: 20px;
+}
+
+/*funny end*/
