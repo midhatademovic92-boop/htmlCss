@@ -1,4 +1,4 @@
-*{
+body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -25,7 +25,6 @@ ul{
     
 }
 
-
 /*title start*/
 .title{
     padding-bottom: 20px;
@@ -34,9 +33,7 @@ ul{
     width: 100%;
     text-align: center;
     font-size: 62px;
-    
-    
-    
+       
 }
 
 /*title end*/
@@ -52,10 +49,9 @@ ul{
     justify-content: center;
     flex-direction: row;
     align-items: center;
-  
-    
-    
+      
 }
+
 .navbar-link a{
     text-decoration: none;
     color: white;
@@ -66,8 +62,8 @@ ul{
     padding: 8px 0;
     
 }
-/*navbar link end*/
 
+/*navbar link end*/
 
 /*scienceUpdate strat*/
 
@@ -91,9 +87,11 @@ ul{
     font-size: 18px;
     
 }
+
 /*scienceUpdate end*/
 
 /* card start*/
+
 .card{
     display: flex;
     flex-direction: row;
@@ -101,7 +99,6 @@ ul{
     justify-content: center;
     gap: 40px;
     align-items: flex-start;
-    
     
 }
 
@@ -114,7 +111,7 @@ ul{
 .card h2{
     background-color:rgb(183, 181, 181);
     color: #094e92;
-;
+
 }
 
 .cardTwo{
@@ -142,6 +139,7 @@ ul{
 /*card end*/
 
 /*funny start*/
+
 .funnyH3{
     background-color:rgba(156, 77, 77, 0.245);
     color: #094e92;
